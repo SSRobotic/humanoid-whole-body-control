@@ -1,0 +1,109 @@
+[
+  {
+    "id": "loongOpen-OpenLoong-Dyn-Control",
+    "title": "OpenLoong Dynamics Control",
+    "categories": [
+      "control"
+    ],
+    "tags": [
+      "Humanoid",
+      "Whole-body control",
+      "MuJoCo"
+    ],
+    "description": "OpenLoong humanoid dynamics and control framework with simulation resources. Follow its supported model and environment.",
+    "descriptionTh": "เฟรมเวิร์ก Dynamics และ Control ของ Humanoid OpenLoong พร้อมแหล่งข้อมูล Simulation",
+    "source": "upstream",
+    "owner": "loongOpen",
+    "url": "https://github.com/loongOpen/OpenLoong-Dyn-Control",
+    "upstream": "https://github.com/loongOpen/OpenLoong-Dyn-Control",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10",
+    "key": "loongOpen/OpenLoong-Dyn-Control"
+  },
+  {
+    "id": "stack-of-tasks-pinocchio",
+    "title": "Pinocchio",
+    "categories": [
+      "control"
+    ],
+    "tags": [
+      "Kinematics",
+      "Dynamics",
+      "C++",
+      "Python"
+    ],
+    "description": "Rigid-body dynamics and kinematics algorithms for robotics, including model-based control research.",
+    "descriptionTh": "อัลกอริทึม Dynamics และ Kinematics สำหรับหุ่นยนต์และงานวิจัยควบคุมด้วยโมเดล",
+    "source": "upstream",
+    "owner": "stack-of-tasks",
+    "url": "https://github.com/stack-of-tasks/pinocchio",
+    "upstream": "https://github.com/stack-of-tasks/pinocchio",
+    "license": "BSD-2-Clause",
+    "verifiedOn": "2026-10-10",
+    "key": "stack-of-tasks/pinocchio"
+  },
+  {
+    "id": "RobotLocomotion-drake",
+    "title": "Drake",
+    "categories": [
+      "control"
+    ],
+    "tags": [
+      "Dynamics",
+      "Optimization",
+      "Planning"
+    ],
+    "description": "Model-based robotics toolbox for dynamics, optimization, planning and control.",
+    "descriptionTh": "ชุดเครื่องมือหุ่นยนต์ที่ใช้โมเดล สำหรับ Dynamics, Optimization, Planning และ Control",
+    "source": "upstream",
+    "owner": "RobotLocomotion",
+    "url": "https://github.com/RobotLocomotion/drake",
+    "upstream": "https://github.com/RobotLocomotion/drake",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10",
+    "key": "RobotLocomotion/drake"
+  },
+  {
+    "id": "Open-X-Humanoid-TienKung_ROS",
+    "key": "Open-X-Humanoid/TienKung_ROS",
+    "title": "TienKung ROS",
+    "description": "TienKung ROS software and hardware-control modules.",
+    "descriptionTh": "ซอฟต์แวร์ ROS และโมดูลเชื่อมฮาร์ดแวร์ของ TienKung",
+    "categories": [
+      "control",
+      "ros"
+    ],
+    "tags": [
+      "TienKung",
+      "ROS",
+      "Control"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/TienKung_ROS",
+    "upstream": "https://github.com/Open-X-Humanoid/TienKung_ROS",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "Open-X-Humanoid-Deploy_Tienkung",
+    "key": "Open-X-Humanoid/Deploy_Tienkung",
+    "title": "Deploy TienKung",
+    "description": "Deployment code and platform-specific interfaces for TienKung workflows.",
+    "descriptionTh": "โค้ด Deploy และอินเทอร์เฟซเฉพาะแพลตฟอร์มสำหรับ TienKung",
+    "categories": [
+      "control"
+    ],
+    "tags": [
+      "TienKung",
+      "Deployment",
+      "C++"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/Deploy_Tienkung",
+    "upstream": "https://github.com/Open-X-Humanoid/Deploy_Tienkung",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  }
+]

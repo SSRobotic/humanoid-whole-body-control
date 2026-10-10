@@ -1,30 +1,10 @@
 [
   {
-    "id": "loongOpen-OpenLoong-Dyn-Control",
-    "title": "OpenLoong Dynamics Control",
-    "categories": [
-      "control"
-    ],
-    "tags": [
-      "Humanoid",
-      "Whole-body control",
-      "MuJoCo"
-    ],
-    "description": "OpenLoong humanoid dynamics and control framework with simulation resources. Follow its supported model and environment.",
-    "descriptionTh": "เฟรมเวิร์ก Dynamics และ Control ของ Humanoid OpenLoong พร้อมแหล่งข้อมูล Simulation",
-    "source": "upstream",
-    "owner": "loongOpen",
-    "url": "https://github.com/loongOpen/OpenLoong-Dyn-Control",
-    "upstream": "https://github.com/loongOpen/OpenLoong-Dyn-Control",
-    "license": "Apache-2.0",
-    "verifiedOn": "2026-10-10",
-    "key": "loongOpen/OpenLoong-Dyn-Control"
-  },
-  {
     "id": "stack-of-tasks-pinocchio",
     "title": "Pinocchio",
     "categories": [
-      "control"
+      "control",
+      "algorithms"
     ],
     "tags": [
       "Kinematics",
@@ -46,7 +26,8 @@
     "id": "RobotLocomotion-drake",
     "title": "Drake",
     "categories": [
-      "control"
+      "control",
+      "algorithms"
     ],
     "tags": [
       "Dynamics",
@@ -62,6 +43,27 @@
     "license": "NOASSERTION",
     "verifiedOn": "2026-10-10",
     "key": "RobotLocomotion/drake"
+  },
+  {
+    "id": "loongOpen-OpenLoong-Dyn-Control",
+    "title": "OpenLoong Dynamics Control",
+    "categories": [
+      "control"
+    ],
+    "tags": [
+      "Humanoid",
+      "Whole-body control",
+      "MuJoCo"
+    ],
+    "description": "OpenLoong humanoid dynamics and control framework with simulation resources. Follow its supported model and environment.",
+    "descriptionTh": "เฟรมเวิร์ก Dynamics และ Control ของ Humanoid OpenLoong พร้อมแหล่งข้อมูล Simulation",
+    "source": "upstream",
+    "owner": "loongOpen",
+    "url": "https://github.com/loongOpen/OpenLoong-Dyn-Control",
+    "upstream": "https://github.com/loongOpen/OpenLoong-Dyn-Control",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10",
+    "key": "loongOpen/OpenLoong-Dyn-Control"
   },
   {
     "id": "Open-X-Humanoid-TienKung_ROS",
@@ -104,6 +106,139 @@
     "url": "https://github.com/Open-X-Humanoid/Deploy_Tienkung",
     "upstream": "https://github.com/Open-X-Humanoid/Deploy_Tienkung",
     "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "stack-of-tasks-tsid",
+    "key": "stack-of-tasks/tsid",
+    "title": "TSID",
+    "description": "Task-space inverse-dynamics control using Pinocchio, with robotics exercises and examples.",
+    "descriptionTh": "ควบคุมด้วย Task-space Inverse Dynamics บน Pinocchio พร้อมแบบฝึกและตัวอย่างหุ่นยนต์",
+    "tags": [
+      "Inverse dynamics",
+      "Whole-body control",
+      "QP"
+    ],
+    "categories": [
+      "algorithms",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "stack-of-tasks",
+    "url": "https://github.com/stack-of-tasks/tsid",
+    "upstream": "https://github.com/stack-of-tasks/tsid",
+    "license": "BSD-2-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "loco-3d-crocoddyl",
+    "key": "loco-3d/crocoddyl",
+    "title": "Crocoddyl",
+    "description": "Contact-aware optimal control with DDP-family solvers for robot motion.",
+    "descriptionTh": "Optimal Control ที่คำนึงถึง Contact โดยใช้ Solver ตระกูล DDP สำหรับการเคลื่อนไหวหุ่นยนต์",
+    "tags": [
+      "DDP",
+      "Optimal control",
+      "Contacts"
+    ],
+    "categories": [
+      "algorithms",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "loco-3d",
+    "url": "https://github.com/loco-3d/crocoddyl",
+    "upstream": "https://github.com/loco-3d/crocoddyl",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "leggedrobotics-ocs2",
+    "key": "leggedrobotics/ocs2",
+    "title": "OCS2",
+    "description": "Optimal-control and MPC tooling for systems with switching dynamics.",
+    "descriptionTh": "เครื่องมือ Optimal Control และ MPC สำหรับระบบที่มีการสลับ Dynamics",
+    "tags": [
+      "MPC",
+      "Optimal control",
+      "Switched systems"
+    ],
+    "categories": [
+      "algorithms",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "leggedrobotics",
+    "url": "https://github.com/leggedrobotics/ocs2",
+    "upstream": "https://github.com/leggedrobotics/ocs2",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "pink-kinematics-pink",
+    "key": "pink-kinematics/pink",
+    "title": "Pink Inverse Kinematics",
+    "description": "Differential inverse kinematics in Python using Pinocchio and QP solvers.",
+    "descriptionTh": "Differential Inverse Kinematics ใน Python ใช้ Pinocchio และ QP Solver",
+    "tags": [
+      "IK",
+      "Pinocchio",
+      "QP"
+    ],
+    "categories": [
+      "algorithms",
+      "models",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "pink-kinematics",
+    "url": "https://github.com/pink-kinematics/pink",
+    "upstream": "https://github.com/pink-kinematics/pink",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "osqp-osqp",
+    "key": "osqp/osqp",
+    "title": "OSQP",
+    "description": "Numerical solver for convex quadratic programs, useful as a component in IK and control formulations.",
+    "descriptionTh": "Solver สำหรับ Convex Quadratic Program ใช้เป็นส่วนหนึ่งของการกำหนดปัญหา IK และ Control",
+    "tags": [
+      "QP",
+      "Optimization",
+      "Solver"
+    ],
+    "categories": [
+      "algorithms",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "osqp",
+    "url": "https://github.com/osqp/osqp",
+    "upstream": "https://github.com/osqp/osqp",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "casadi-casadi",
+    "key": "casadi/casadi",
+    "title": "CasADi",
+    "description": "Symbolic differentiation and optimization tools for formulating nonlinear control and trajectory problems.",
+    "descriptionTh": "เครื่องมืออนุพันธ์เชิงสัญลักษณ์และ Optimization สำหรับกำหนดปัญหา Control และ Trajectory แบบ Nonlinear",
+    "tags": [
+      "NLP",
+      "Automatic differentiation",
+      "MPC"
+    ],
+    "categories": [
+      "algorithms",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "casadi",
+    "url": "https://github.com/casadi/casadi",
+    "upstream": "https://github.com/casadi/casadi",
+    "license": "LGPL-3.0",
     "verifiedOn": "2026-10-10"
   }
 ]

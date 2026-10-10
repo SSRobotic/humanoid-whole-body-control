@@ -1,0 +1,9 @@
+- git:
+    # ref. https://github.com/asherikov/qpmad/pull/13
+    uri: https://github.com/nim65s/qpmad.git
+    version: cmake
+    local-name: qpmad
+- git:
+    uri: https://github.com/Simple-Robotics/proxsuite.git
+    version: devel
+    local-name: proxsuite

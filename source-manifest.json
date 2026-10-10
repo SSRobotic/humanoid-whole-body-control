@@ -1,0 +1,22 @@
+{
+  "repository": "humanoid-whole-body-control",
+  "url": "https://github.com/SSRobotic/humanoid-whole-body-control",
+  "projects": [
+    {
+      "slug": "stack-of-tasks/tsid",
+      "source_url": "https://github.com/stack-of-tasks/tsid",
+      "commit": "25762a26464d10f6a2b1becc87f6e9a13c24c44b",
+      "branch": "devel",
+      "snapshot": "all tracked file blobs at the pinned commit",
+      "gitlinks": [],
+      "license": "BSD-2-Clause",
+      "folder": "projects/tsid",
+      "file_count": 319,
+      "bytes": 37120967,
+      "lfs_pointers": []
+    }
+  ],
+  "source_file_count": 319,
+  "lfs_pointer_count": 0,
+  "materialized_file_count": 319
+}

@@ -1,0 +1,1929 @@
+{
+  "slug": "stack-of-tasks/tsid",
+  "source_url": "https://github.com/stack-of-tasks/tsid",
+  "commit": "25762a26464d10f6a2b1becc87f6e9a13c24c44b",
+  "branch": "devel",
+  "snapshot": "all tracked file blobs at the pinned commit",
+  "files": [
+    {
+      "path": ".git-blame-ignore-revs",
+      "sha": "c0c35d5266755359bde16939004ecda2c6250259",
+      "size": 380,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "8ac6b8c4984dcd382e54c7923325af6d226ca3df",
+      "size": 119,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/ci-linux-osx-conda.yml",
+      "sha": "dcbb018c9d507bdd6f0c4b02162eb36072a27d6b",
+      "size": 3351,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/ci-linux-ros.yml",
+      "sha": "f8b7218fc14652f360341eaea01d70e8f01489ea",
+      "size": 1023,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/conda/environment.yml",
+      "sha": "e7d538ee2c4d5e35371f25e96e03d29b97b50218",
+      "size": 280,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "sha": "3756f25d2486ed8403414494b5759e1f6b0b814e",
+      "size": 777,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/update-flake-lock.yml",
+      "sha": "28c1e1959acbe7784b51fa13f772d1f4d4e9ded8",
+      "size": 961,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "sha": "ec97ed79bc783ddf3700d5add79e9a3efd87c031",
+      "size": 50,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitlab-ci.yml",
+      "sha": "488bc42d5358d128353df12b2b00bd6f63e1e66f",
+      "size": 62,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitmodules",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": ".mergify.yml",
+      "sha": "8ece7ea1275f3bb176559126605ea536eb57dfc1",
+      "size": 401,
+      "mode": "100644"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "sha": "5b404e1a53e92552823c3d4dc59decb43ecf0211",
+      "size": 1194,
+      "mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "5543c607588120c5d496b40ec0f80fab59054cbb",
+      "size": 8132,
+      "mode": "100644"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha": "39432386c3b117d6192d393145933d27f8041a06",
+      "size": 12906,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "e0f09b8f150878ec329eeba5b5ba1e6552c784ae",
+      "size": 1360,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "13ef22e8cef0336cc00c69158b2cba9cad3518c7",
+      "size": 4979,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/CMakeLists.txt",
+      "sha": "12e71c32beb0445f4ac631db3a450304f31c6e57",
+      "size": 122,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/CMakeLists.txt",
+      "sha": "55dc0953159d47527bc60444f97f96e821ab7841",
+      "size": 4988,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/constraint/constraint-bound.cpp",
+      "sha": "116fb527ad0136d3da8f30c6677e79ad85ef615b",
+      "size": 368,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/constraint/constraint-equality.cpp",
+      "sha": "a79884d512a6d48705fa531ac28829257a8720b1",
+      "size": 382,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/constraint/constraint-inequality.cpp",
+      "sha": "1a97547075748aa11f8ea3074b58b23e90974f39",
+      "size": 392,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/contacts/contact-6d.cpp",
+      "sha": "fa7dd4b836e1cfecfc06a83aaeedaa4885d91c9e",
+      "size": 352,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/contacts/contact-point.cpp",
+      "sha": "b9886472c5804ca8087e7331c5ae3adde343cc50",
+      "size": 354,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/contacts/contact-two-frame-positions.cpp",
+      "sha": "67a9ab08801846561c0edc7c2f15395946549ca7",
+      "size": 423,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/contacts/measured-6d-wrench.cpp",
+      "sha": "447da7462929b5dc389320c1d170fe493aa8bc3e",
+      "size": 341,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/formulations/formulation.cpp",
+      "sha": "fbcc92c00d3edcc90a75e51e021619f24b9aadeb",
+      "size": 415,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/math/utils.cpp",
+      "sha": "86905ada29fe2f24bc73f9fb2eaa2b62f3b995df",
+      "size": 1379,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/module.cpp",
+      "sha": "708b553c32832bcb88ad7874cdd3c2743066dd85",
+      "size": 1453,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/robots/robot-wrapper.cpp",
+      "sha": "c63c9883ee026f69b0fb27e2151c40ccab97cf25",
+      "size": 333,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/solvers/HQPData.cpp",
+      "sha": "30ef2d1cddf4cd6cfff26d6bd67436569b61f616",
+      "size": 1451,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/solvers/HQPOutput.cpp",
+      "sha": "afc6d53778e307b51ed411b8018129c2a788e527",
+      "size": 322,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/solvers/solver-HQP-eiquadprog.cpp",
+      "sha": "26a3d3b1597a5f96a4f77f983961f94e6745c794",
+      "size": 912,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-actuation-bounds.cpp",
+      "sha": "3dac41a444002279654c01ba5e0a49f7a2d5a9f4",
+      "size": 379,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-actuation-equality.cpp",
+      "sha": "bdf93e6fd704d55531874c4b7f6993caa9b30f59",
+      "size": 389,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-am-equality.cpp",
+      "sha": "f738f9fa4498ee7a781247e174da100b11c76a66",
+      "size": 354,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-com-equality.cpp",
+      "sha": "7cfd7022045d594864c8dd225055c9db0f041fe9",
+      "size": 359,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-contact-force-equality.cpp",
+      "sha": "cd9cbd1b2e960e876bdaead171a5143c74496ea1",
+      "size": 432,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-cop-equality.cpp",
+      "sha": "4d63baad157bac322a495612e99c389ed5827d14",
+      "size": 375,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-joint-bounds.cpp",
+      "sha": "96882d712b9616d2c40b247cafa78abc639fba32",
+      "size": 359,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-joint-posVelAcc-bounds.cpp",
+      "sha": "6bb03d96e25be4fb840ebf2742e83a926dc3da97",
+      "size": 406,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-joint-posture.cpp",
+      "sha": "3f79c3a8837c19f5bab4097e9f7a4767d70d7f64",
+      "size": 364,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-se3-equality.cpp",
+      "sha": "50d2b1656d6eb897813006c204bb7ad9202062fc",
+      "size": 359,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tasks/task-two-frames-equality.cpp",
+      "sha": "51bb3ccdaa2bccfb196e17eb500fee7f53f34f52",
+      "size": 390,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/trajectories/trajectory-base.cpp",
+      "sha": "47578dd5a33c0aaeca9ebbdbaac1426ae2fb2c54",
+      "size": 389,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/trajectories/trajectory-euclidian.cpp",
+      "sha": "56762f8e9d99587fe20bfa00a4120b4a18c6b2cf",
+      "size": 445,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/trajectories/trajectory-se3.cpp",
+      "sha": "a5dd6ee0279ba83d495af3e6f4ce5c7bef8251e1",
+      "size": 415,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/tsid/__init__.py",
+      "sha": "b2b526d7230e2ba2fe525add8d437d41537c87ce",
+      "size": 41,
+      "mode": "100644"
+    },
+    {
+      "path": "demo/demo_quadruped.py",
+      "sha": "3ea1314de01b1e7b1a6a6692ef65df63946b1d93",
+      "size": 7909,
+      "mode": "100644"
+    },
+    {
+      "path": "demo/demo_tsid_talos_gripper_closed_kinematic_chain.py",
+      "sha": "2fdb47c0086e4c835b884f2aef27eb2c10399b1e",
+      "size": 6211,
+      "mode": "100644"
+    },
+    {
+      "path": "dependencies.rosinstall",
+      "sha": "9f047fdccd0db410070307b6dd8d09b5870ee569",
+      "size": 257,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/tsid_cheatsheet.tex",
+      "sha": "e71ac2d7cd7e304b40c48fc39bf3f9562eadea55",
+      "size": 6335,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_0_ur5_joint_space_control.py",
+      "sha": "22ea8470681fab57e7e616cc2d4f931de70d03b7",
+      "size": 6066,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_1.py",
+      "sha": "90fd4b6f8c4c92052ca9d9efae76956a72e7c314",
+      "size": 4046,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_1_ur5.py",
+      "sha": "8ab385f17d35cd3fd6b72b6228393727c2d3c036",
+      "size": 5746,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_2.py",
+      "sha": "81baec22be8d5b30dc0f3262864780ab4cf1f89a",
+      "size": 4408,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_3_biped_balance_with_gui.py",
+      "sha": "678d051b4d626802472cd21b0beffb7e2aa8c12f",
+      "size": 9104,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_4_LIPM_to_TSID.py",
+      "sha": "4e16d7dda1047e1e3b0917fb28959618f7a258fb",
+      "size": 3736,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_4_conf.py",
+      "sha": "8eaa0a2b97d8c9bee68ae42a49bbfbe2f58e4f53",
+      "size": 3326,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_4_long_conf.py",
+      "sha": "603d1ff2845bf64c40aa3324808244f2d5cba2cd",
+      "size": 2908,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_4_plan_LIPM_romeo.py",
+      "sha": "3c81d14325a919aed9c7607e3a355cb55ec1cab8",
+      "size": 5749,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_4_talos_conf.py",
+      "sha": "f2c0662ea915b26b5462367b669f7b492b178384",
+      "size": 3930,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ex_4_walking.py",
+      "sha": "3bbb82ecf333b3376b19e5e475b6d1c3a117cfad",
+      "size": 13245,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/notebooks/Installation process.html",
+      "sha": "eda6ec85efbf90b00d156ac1460dbccb5e1773e1",
+      "size": 275663,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/notebooks/Installation process.ipynb",
+      "sha": "0923bcf9f0a1854eb7997fd6f3f0028245723997",
+      "size": 2698,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/notebooks/ex_0_joint_space_inverse_dynamics_arm.ipynb",
+      "sha": "e8f3cdaf6f900527bbc8f802a77502435f99cb80",
+      "size": 11572,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/notebooks/ex_1_com_sin_track_talos.ipynb",
+      "sha": "51ee1f8c1a03b912a5cdcf17ac9d621f892fe387",
+      "size": 38049,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/notebooks/ex_3_biped_balance_with_gui.ipynb",
+      "sha": "882a2415f6ea85b5958c198f986ff458b95d3a9c",
+      "size": 8751,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/plot_utils.py",
+      "sha": "623c2dab23bc0917342d4fb62e22bbc426244b44",
+      "size": 14022,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/romeo_conf.py",
+      "sha": "20cb8c0101db8c6d6fbf33bbd79bd79316677357",
+      "size": 2516,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/talos_arm_conf.py",
+      "sha": "dd8f00d4c9ee883a113853dfdb943ba1f2ba8e62",
+      "size": 1597,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/talos_conf.py",
+      "sha": "40098f98195fbbbb927c1cc0e92566749c175ec4",
+      "size": 3068,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/test_cop_task.py",
+      "sha": "c9a6e256cb31ccd6b325ea046ccb95d8101263d3",
+      "size": 13089,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/tsid_biped.py",
+      "sha": "a391d1fb4604e4894b33c5bc39bfbfc419e82b9f",
+      "size": 12166,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/tsid_manipulator.py",
+      "sha": "0c1bb22869f8139ce62f9222f947fb191a92501e",
+      "size": 4320,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ur5_conf.py",
+      "sha": "3ca6c139641b98022ec66b8b454c6c3b3e93903d",
+      "size": 1770,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/ur5_reaching_conf.py",
+      "sha": "f2501167281227d61cf0b60f0eb3ec653c8a4aae",
+      "size": 1826,
+      "mode": "100644"
+    },
+    {
+      "path": "exercizes/vizutils.py",
+      "sha": "0a67098d7067e7ae77041b9a26b3b51b3ccd3941",
+      "size": 2125,
+      "mode": "100644"
+    },
+    {
+      "path": "flake.lock",
+      "sha": "deeb99ce55384a686add1ac5c7a5d1c04b6dda9b",
+      "size": 7228,
+      "mode": "100644"
+    },
+    {
+      "path": "flake.nix",
+      "sha": "74fc1ed705b3323dc450868c07b90bfb1704a55d",
+      "size": 657,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/constraint/constraint-bound.hpp",
+      "sha": "e88a0a41b86b8d8ef66d0362c2689ea2054f050b",
+      "size": 3609,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/constraint/constraint-equality.hpp",
+      "sha": "e42eefb97f3225a6bed8893f4b17e6812e9705f1",
+      "size": 4179,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/constraint/constraint-inequality.hpp",
+      "sha": "8a83575a19af509cf19a068f0f1e4f2d19a65a59",
+      "size": 4282,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/constraint/expose-constraints.hpp",
+      "sha": "f2ee95ea43e13b5d6f76dfcdc7647f2cd08f3fcd",
+      "size": 1374,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/contacts/contact-6d.hpp",
+      "sha": "0f1c4f99e967394d0cbe651a418b2a40231fd091",
+      "size": 9090,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/contacts/contact-point.hpp",
+      "sha": "7d122590294913e70261a2faf6fede1379089ca7",
+      "size": 8639,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/contacts/contact-two-frame-positions.hpp",
+      "sha": "f7de131549d0fcc094aa09f85c2e2f510a84f0a2",
+      "size": 8924,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/contacts/contact-two-frames.hpp",
+      "sha": "7889efb778f7f25f11cd9645ac90dbafe8025be1",
+      "size": 8910,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/contacts/expose-contact.hpp",
+      "sha": "0369279a8cba82dc30f9515614f185a103489f4d",
+      "size": 1460,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/contacts/measured-6d-wrench.hpp",
+      "sha": "590147f85de8fefb0b9e4473909113ae1392d466",
+      "size": 4375,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/formulations/expose-formulations.hpp",
+      "sha": "d791a926d82a6c87f0e356ce22c69761f9dab4ba",
+      "size": 1132,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/formulations/formulation.hpp",
+      "sha": "c00b4e88e33eaee0932285f7afc33152f232a63a",
+      "size": 14394,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/fwd.hpp",
+      "sha": "1626aeddac5beba5c25044b1a0ebb34a031fa91a",
+      "size": 1247,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/math/utils.hpp",
+      "sha": "3c5e3f062cc1143dc8ff8d0c8d4fa56acaff3980",
+      "size": 916,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/robots/expose-robots.hpp",
+      "sha": "deb0a71473fc3d695567daa85ad0cd8f30044089",
+      "size": 1056,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/robots/robot-wrapper.hpp",
+      "sha": "a490a87382b06c6d49472ad0f1122ffeebb7f3d9",
+      "size": 10102,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/solvers/HQPData.hpp",
+      "sha": "adcb14d6f3d04033a11b974b2dbec6f5ca6f65b7",
+      "size": 2268,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/solvers/HQPOutput.hpp",
+      "sha": "15ab9c766f956d85cf807599468ef13aa89cd284",
+      "size": 1788,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/solvers/expose-solvers.hpp",
+      "sha": "036e9a266d4091499ebc774378ce652e19d0c0b5",
+      "size": 1739,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/solvers/solver-HQP-daqp.hpp",
+      "sha": "50b4de08c440155b88bd4cd05eb37083e428f635",
+      "size": 1413,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/solvers/solver-HQP-eiquadprog.hpp",
+      "sha": "ed3f2ff437ecb23d5c076dbab60a0f113f68413c",
+      "size": 3278,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/solvers/solver-osqp.hpp",
+      "sha": "01e1159f8cb71efc0c368f6ef761f353eff4657e",
+      "size": 3419,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/solvers/solver-proxqp.hpp",
+      "sha": "3cddcc5181ae267e4776a9298442b11c6797cba7",
+      "size": 3468,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/expose-tasks.hpp",
+      "sha": "0d513a618f015a18c2c1663d596eb15a37d6f250",
+      "size": 2197,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-actuation-bounds.hpp",
+      "sha": "c3f392461a079e828a20dcf1e0f26ac4ef72c5f7",
+      "size": 4500,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-actuation-equality.hpp",
+      "sha": "2af8f4be1eaa133b2e25fd354ac803b266705987",
+      "size": 4986,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-am-equality.hpp",
+      "sha": "f0c452750099470cb230e0fd9f93d6c1acb0cfca",
+      "size": 6118,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-com-equality.hpp",
+      "sha": "a49d5efef80b031dcd9965243e0c96200c944100",
+      "size": 7483,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-contact-force-equality.hpp",
+      "sha": "87d7614e238233b00eb82a118cf5dbf219c70af6",
+      "size": 6394,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-cop-equality.hpp",
+      "sha": "6ddb6eabd212918f71f2a90b3a785422066c55f1",
+      "size": 3478,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-joint-bounds.hpp",
+      "sha": "6fe5efdf002913d98bffd18aab628712a4527b80",
+      "size": 5333,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-joint-posVelAcc-bounds.hpp",
+      "sha": "022e6261dd748cd575c6e07913af73ffe333d895",
+      "size": 8527,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-joint-posture.hpp",
+      "sha": "f433e22e4eb76aec50f5745797c22e6f1b4ac48c",
+      "size": 7516,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-se3-equality.hpp",
+      "sha": "fea86b821fe3ea9bd67b7ce9de0e756605361d78",
+      "size": 7802,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/tasks/task-two-frames-equality.hpp",
+      "sha": "fdcef4b8f63be43bc4a44f162d7ed8fe7a03cdbc",
+      "size": 6520,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/trajectories/expose-trajectories.hpp",
+      "sha": "30b1d146b4a7973b5ca0a6b196c41489fc441de6",
+      "size": 716,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/trajectories/trajectory-base.hpp",
+      "sha": "49b4b93d001ead6d24410e3ef4625adc92744217",
+      "size": 4946,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/trajectories/trajectory-euclidian.hpp",
+      "sha": "3c3b5abf13021c664561f2e6ce0a81e50de5883c",
+      "size": 2359,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/trajectories/trajectory-se3.hpp",
+      "sha": "f15a2acbd889a4ec44c434f3fe2e6944ff6c187f",
+      "size": 2281,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/bindings/python/utils/container.hpp",
+      "sha": "c2632cf98072f766526f5fbb383eab8e4b69e5a8",
+      "size": 3996,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/contacts/contact-6d.hpp",
+      "sha": "98f2741df9057bffeeb3e433062aa29cd5682c28",
+      "size": 3969,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/contacts/contact-base.hpp",
+      "sha": "9efa0695047a39ce4c8c69aac5b1296106b012ba",
+      "size": 2744,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/contacts/contact-point.hpp",
+      "sha": "47097e245ed4f156ed0d347491818e387d213fd9",
+      "size": 4114,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/contacts/contact-two-frame-positions.hpp",
+      "sha": "8d2237b5adf62ee8b050adb09eb89a767453e14f",
+      "size": 3838,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/contacts/fwd.hpp",
+      "sha": "c32801e8fb872162f21cdc6efb2539f724be91b4",
+      "size": 202,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/contacts/measured-3Dforce.hpp",
+      "sha": "7c5b7ed9170965e1ca111afc7d8c1cb92b2ab282",
+      "size": 454,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/contacts/measured-3d-force.hpp",
+      "sha": "9b954e8d4675790229c0a05403623c91523def6a",
+      "size": 1532,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/contacts/measured-6Dwrench.hpp",
+      "sha": "0f218cb2a30c35302e074b509dfa955c2f6e0945",
+      "size": 462,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/contacts/measured-6d-wrench.hpp",
+      "sha": "3742e137d8ae639feb480e0a1240de4e4daba4f3",
+      "size": 1538,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/contacts/measured-force-base.hpp",
+      "sha": "cadd0f97a1965c876992570797f8197fc3568925",
+      "size": 1001,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/formulations/contact-level.hpp",
+      "sha": "53e7fb652ff19e333afd48577678a4ea08c0acbb",
+      "size": 1171,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/formulations/inverse-dynamics-formulation-acc-force.hpp",
+      "sha": "fd8ba3ce9773f71bbe32537eaaafb5cfabe8d504",
+      "size": 4895,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/formulations/inverse-dynamics-formulation-base.hpp",
+      "sha": "2a191d05b9b42a633614019777926d3ceafb2a98",
+      "size": 5835,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/macros.hpp",
+      "sha": "db76f7cc5c60ba67bc189ba4bfe61d8b1eec7194",
+      "size": 1013,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/math/constraint-base.hpp",
+      "sha": "2f2c306527bf7fc92c66521b56c50ea7dece8e2f",
+      "size": 1950,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/math/constraint-bound.hpp",
+      "sha": "132bcfcf17ba3e6beee7503943e06678df1879af",
+      "size": 1346,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/math/constraint-equality.hpp",
+      "sha": "c6335110253c31a982976f0a87f429dfb20f37a6",
+      "size": 1398,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/math/constraint-inequality.hpp",
+      "sha": "b3abce29b8602ee31ea18d9d4e4f7ed7c70238d9",
+      "size": 1450,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/math/fwd.hpp",
+      "sha": "24e19a83ab32f257a4097c89e1a30793fbc56b80",
+      "size": 1348,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/math/utils.hpp",
+      "sha": "69ced1294efcecc02005ec285fc7f0288363efe2",
+      "size": 6517,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/robots/fwd.hpp",
+      "sha": "ba5265fe1e1f916c092da80de14d9e4db02883a7",
+      "size": 227,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/robots/robot-wrapper.hpp",
+      "sha": "087ded165bdba3e56deee59322206c599215d138",
+      "size": 6230,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/.DS_Store",
+      "sha": "5008ddfcf53c02e82d7eee2e57c38e5672ef89f6",
+      "size": 6148,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/fwd.hpp",
+      "sha": "defdc26c8d99360bc84da90b72374a73905f92f7",
+      "size": 2830,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-base.hpp",
+      "sha": "a8e0437a9bc784e65762ca7fb6bdcf3b0c5171b5",
+      "size": 3137,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-daqp.hpp",
+      "sha": "7782e65157cec3cc1cc6e0be687dfe506b8eb887",
+      "size": 2558,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-eiquadprog-fast.hpp",
+      "sha": "298fa855d37d20c355b2f5da83cb986bac0e5fe5",
+      "size": 2954,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-eiquadprog-rt.hpp",
+      "sha": "69cb1a95b49a850cb9fa32ae4bb4815e97fa1c74",
+      "size": 3180,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-eiquadprog-rt.hxx",
+      "sha": "899e52fc1b5ed5f824816c8737df6baea265e579",
+      "size": 7700,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-eiquadprog.hpp",
+      "sha": "3bc8a7c29be8943dd4837d9955f0f754645f750e",
+      "size": 3341,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-factory.hpp",
+      "sha": "acba0b0af50c14a41d252c04143d4c988b390a5c",
+      "size": 1190,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-factory.hxx",
+      "sha": "6d67d3bb25fd94f3851bf2efc941e974b4ff9da7",
+      "size": 1441,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-output.hpp",
+      "sha": "0fd29c9ef4c2601e94b3504b41ea0ebed0d8cb55",
+      "size": 1696,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-qpmad.hpp",
+      "sha": "ea89fe489bd33e6ab3e1f6c5abe4d88802918e13",
+      "size": 1874,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-HQP-qpoases.hpp",
+      "sha": "687b1964ed3d759a96b31fd9a7f6d55ee67200b2",
+      "size": 210,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-osqp.hpp",
+      "sha": "057a2983d1783b6cbc2d094ebae2f598297fa932",
+      "size": 2994,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-proxqp.hpp",
+      "sha": "f2535aeaaba6bf54cfbe90caac6b682122894678",
+      "size": 3093,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/solver-qpData.hpp",
+      "sha": "c4d2c97406cd7f2bbd0ca614dbd410072a8a85d3",
+      "size": 1145,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/solvers/utils.hpp",
+      "sha": "bd1d779cd5ee942b1662b088a88ec04b3c357be6",
+      "size": 1030,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/fwd.hpp",
+      "sha": "00ebd29135147a473eca6b6d3cc195cdf73ae3e0",
+      "size": 871,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-actuation-bounds.hpp",
+      "sha": "3783d4145c7f427e4a252cac7971155ea9983cc0",
+      "size": 1999,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-actuation-equality.hpp",
+      "sha": "dbf9bc749734b37a65e265d4c719e39e25743fd8",
+      "size": 1978,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-actuation.hpp",
+      "sha": "b610a98dafdaf85c2895713d9a07aca1553c93b1",
+      "size": 1059,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-angular-momentum-equality.hpp",
+      "sha": "3d4e44b67ed1c8bf465e0594b9e4a6cdb2c0b017",
+      "size": 2460,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-base.hpp",
+      "sha": "89cc32f1b3f463e8fe54fbe4479a8f5697793774",
+      "size": 1991,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-capture-point-inequality.hpp",
+      "sha": "85ee88f23281f1919bde3b85795c50ed77b2501f",
+      "size": 2612,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-com-equality.hpp",
+      "sha": "58c8b2cb54f918505e68c82881961715221cbf43",
+      "size": 2693,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-contact-force-equality.hpp",
+      "sha": "ed0daeb641c1e7b5489185fc9988be4690a69fe3",
+      "size": 3280,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-contact-force.hpp",
+      "sha": "42527a66bb69fec72d96b3810bf8bb5d444767d2",
+      "size": 2051,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-cop-equality.hpp",
+      "sha": "5bdf53e2bb476bc5c19eb7d70a9380330b3d3897",
+      "size": 2581,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-joint-bounds.hpp",
+      "sha": "547863a7ab27509fdfb993569777706ba90308a3",
+      "size": 2122,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-joint-posVelAcc-bounds.hpp",
+      "sha": "f6ddea7f90da56f7285a9744fbb97c26d84e311d",
+      "size": 6622,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-joint-posture.hpp",
+      "sha": "17d8bd6464960f29bde56eadf6d9ef7c4f8c8e4c",
+      "size": 2725,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-motion.hpp",
+      "sha": "d07ef410af91c0acc447def44f104c65974fb04c",
+      "size": 1910,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-se3-equality.hpp",
+      "sha": "e874820073c84aa3da0de0f0aef91acbe4d6db14",
+      "size": 4414,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/tasks/task-two-frames-equality.hpp",
+      "sha": "942d244ed1c50af38b55bafcead59909c7759fd5",
+      "size": 4211,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/trajectories/fwd.hpp",
+      "sha": "f4f942530d794c8e94203fb3983dad011220f1e3",
+      "size": 899,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/trajectories/trajectory-base.hpp",
+      "sha": "2ccaa7b18be4ffcdb80ef9059864e44c4f45bca8",
+      "size": 3172,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/trajectories/trajectory-euclidian.hpp",
+      "sha": "e3a453076b0230889ea04fcf9c1309244a739441",
+      "size": 1643,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/trajectories/trajectory-se3.hpp",
+      "sha": "73ddd4f3dd18be84f68af5ad039a375ebfd7fbe3",
+      "size": 1580,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/utils/Stdafx.hh",
+      "sha": "928f1328feff4a73ab35b4c551f7fbde2a072f0a",
+      "size": 1215,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/utils/statistics.hpp",
+      "sha": "79420087a9287813b0a6e7d647b7fffac3dfe4d0",
+      "size": 3326,
+      "mode": "100644"
+    },
+    {
+      "path": "include/tsid/utils/stop-watch.hpp",
+      "sha": "ec3459e9744ad3f2bbc21116d2ea2b5d7f04485d",
+      "size": 7896,
+      "mode": "100644"
+    },
+    {
+      "path": "models/quadruped/urdf/cube.obj",
+      "sha": "7d724d80341e3b7686f1bc3fba2ab4b62f26c533",
+      "size": 1083,
+      "mode": "100644"
+    },
+    {
+      "path": "models/quadruped/urdf/cylinder.obj",
+      "sha": "7a0f600298326e050162af00e7f6a7ed7f70a666",
+      "size": 12737,
+      "mode": "100644"
+    },
+    {
+      "path": "models/quadruped/urdf/quadruped.urdf",
+      "sha": "448bf858ddf4cfe95dfd644ee70cb9e61e73ea5f",
+      "size": 13828,
+      "mode": "100644"
+    },
+    {
+      "path": "models/quadruped/urdf/sphere.obj",
+      "sha": "e7898a64ec18c3843374dcbf6d8da36526933a83",
+      "size": 9083,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/HeadRoll.dae",
+      "sha": "02e9aa79ffe23860db0c45c92c0c4f30b2240235",
+      "size": 519044,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LAnkleRoll.dae",
+      "sha": "765f3900a3e44b12b57ea7e74ce4ace361ef52ec",
+      "size": 395743,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LAnkleRollBasic.dae",
+      "sha": "990f4cd62d9ce2a5a575a2944cb24f55abe5f9d3",
+      "size": 590319,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LElbowYaw.dae",
+      "sha": "f32444c6f1c1e9689820336947083fa441b2c579",
+      "size": 327283,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LHand.dae",
+      "sha": "d0b2927292958c7b0f2ac862e5faa3142aaa41ae",
+      "size": 3871177,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LHipPitch.dae",
+      "sha": "cb4c132495189dfb77d4da15c668d3c5077af0e5",
+      "size": 442501,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LKneePitch.dae",
+      "sha": "689dd433740ef53d0b949e78fbf953caa0af21fc",
+      "size": 625597,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LShoulderYaw.dae",
+      "sha": "1599b1555f7c7125db0da5f729c03ef29c071e14",
+      "size": 304673,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LThumb.dae",
+      "sha": "8062387b3096e5d99bfd2447a359a0fea03c8a47",
+      "size": 129371,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LToePitch.dae",
+      "sha": "fd4aa9c422f9f0fa32d767a4625dbf7daf361ae5",
+      "size": 171242,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LWristPitch.dae",
+      "sha": "ba84e6d95b85f86cafb3850ee65934e69468ddf1",
+      "size": 1152094,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LWristRoll.dae",
+      "sha": "00c9b54ac648f12e7bb29c5149ea4616b5d87b35",
+      "size": 86673,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/LWristYaw.dae",
+      "sha": "781764ad0258ca892cf34c052e37460da4e65677",
+      "size": 33033,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/NeckPitch.dae",
+      "sha": "604d971fe1418b9411a529095b13792654b09a53",
+      "size": 77222,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/Phalax.dae",
+      "sha": "e9b65cacc3aeeb17c6e1df0098d9df2101dc742d",
+      "size": 263906,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/PhalaxEnd.dae",
+      "sha": "1bbf6986d251ced0e9e25dbb46237cea107238e1",
+      "size": 187691,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RAnkleRoll.dae",
+      "sha": "1dfd0c208e51134c5d60497729050eabd7f34a36",
+      "size": 395422,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RAnkleRollBasic.dae",
+      "sha": "bb67f3c2cd2206fd6663e8e6d76d924ecb1a904b",
+      "size": 589608,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RElbowYaw.dae",
+      "sha": "9a4a90619042e9fe5072d365d3d3a93607ca3e1f",
+      "size": 326980,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RHand.dae",
+      "sha": "a5cab2919c0a9143ffa3d02cd43bbf4e95412c37",
+      "size": 3870966,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RHipPitch.dae",
+      "sha": "b35fbcb153ef11192f8a2e9f9c1f1c62a4422d35",
+      "size": 441285,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RKneePitch.dae",
+      "sha": "a2618dadcdfd45c8373840a930a37c161f906666",
+      "size": 627243,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RShoulderYaw.dae",
+      "sha": "c80cb524343f9330bc9616d459153a869a157085",
+      "size": 304812,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RThumb.dae",
+      "sha": "9321a1379e5418644cb69ea0c4a1ea559c059cfd",
+      "size": 129218,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RToePitch.dae",
+      "sha": "a275ece530706fe047874539577492a62fe487bf",
+      "size": 170896,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RWristPitch.dae",
+      "sha": "2fffc079bb3460916af8d176d1c9d003f0303336",
+      "size": 1152170,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RWristRoll.dae",
+      "sha": "da733a5626d1adb58037b5f51ade030111d186fa",
+      "size": 86790,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/RWristYaw.dae",
+      "sha": "781764ad0258ca892cf34c052e37460da4e65677",
+      "size": 33033,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/Torso.dae",
+      "sha": "9d4d59e745c555481501455e6ed8b2d63947591a",
+      "size": 259947,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/collision/TrunkYaw.dae",
+      "sha": "f024fd137662873edd20ead0e4996458b2b7a345",
+      "size": 328372,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/HeadRoll.dae",
+      "sha": "02e9aa79ffe23860db0c45c92c0c4f30b2240235",
+      "size": 519044,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LAnkleRoll.dae",
+      "sha": "990f4cd62d9ce2a5a575a2944cb24f55abe5f9d3",
+      "size": 590319,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LAnkleRollWithouToe.dae",
+      "sha": "765f3900a3e44b12b57ea7e74ce4ace361ef52ec",
+      "size": 395743,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LElbowYaw.dae",
+      "sha": "f32444c6f1c1e9689820336947083fa441b2c579",
+      "size": 327283,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LHand.dae",
+      "sha": "d0b2927292958c7b0f2ac862e5faa3142aaa41ae",
+      "size": 3871177,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LHipPitch.dae",
+      "sha": "cb4c132495189dfb77d4da15c668d3c5077af0e5",
+      "size": 442501,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LKneePitch.dae",
+      "sha": "689dd433740ef53d0b949e78fbf953caa0af21fc",
+      "size": 625597,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LShoulderYaw.dae",
+      "sha": "1599b1555f7c7125db0da5f729c03ef29c071e14",
+      "size": 304673,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LThumb.dae",
+      "sha": "8062387b3096e5d99bfd2447a359a0fea03c8a47",
+      "size": 129371,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LToePitch.dae",
+      "sha": "fd4aa9c422f9f0fa32d767a4625dbf7daf361ae5",
+      "size": 171242,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LWristPitch.dae",
+      "sha": "ba84e6d95b85f86cafb3850ee65934e69468ddf1",
+      "size": 1152094,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LWristRoll.dae",
+      "sha": "00c9b54ac648f12e7bb29c5149ea4616b5d87b35",
+      "size": 86673,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/LWristYaw.dae",
+      "sha": "781764ad0258ca892cf34c052e37460da4e65677",
+      "size": 33033,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/NeckPitch.dae",
+      "sha": "604d971fe1418b9411a529095b13792654b09a53",
+      "size": 77222,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/Phalax.dae",
+      "sha": "e9b65cacc3aeeb17c6e1df0098d9df2101dc742d",
+      "size": 263906,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/PhalaxEnd.dae",
+      "sha": "1bbf6986d251ced0e9e25dbb46237cea107238e1",
+      "size": 187691,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RAnkleRoll.dae",
+      "sha": "bb67f3c2cd2206fd6663e8e6d76d924ecb1a904b",
+      "size": 589608,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RAnkleRollWithoutToe.dae",
+      "sha": "1dfd0c208e51134c5d60497729050eabd7f34a36",
+      "size": 395422,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RElbowYaw.dae",
+      "sha": "9a4a90619042e9fe5072d365d3d3a93607ca3e1f",
+      "size": 326980,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RHand.dae",
+      "sha": "a5cab2919c0a9143ffa3d02cd43bbf4e95412c37",
+      "size": 3870966,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RHipPitch.dae",
+      "sha": "b35fbcb153ef11192f8a2e9f9c1f1c62a4422d35",
+      "size": 441285,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RKneePitch.dae",
+      "sha": "a2618dadcdfd45c8373840a930a37c161f906666",
+      "size": 627243,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RShoulderYaw.dae",
+      "sha": "c80cb524343f9330bc9616d459153a869a157085",
+      "size": 304812,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RThumb.dae",
+      "sha": "9321a1379e5418644cb69ea0c4a1ea559c059cfd",
+      "size": 129218,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RToePitch.dae",
+      "sha": "a275ece530706fe047874539577492a62fe487bf",
+      "size": 170896,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RWristPitch.dae",
+      "sha": "2fffc079bb3460916af8d176d1c9d003f0303336",
+      "size": 1152170,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RWristRoll.dae",
+      "sha": "da733a5626d1adb58037b5f51ade030111d186fa",
+      "size": 86790,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/RWristYaw.dae",
+      "sha": "781764ad0258ca892cf34c052e37460da4e65677",
+      "size": 33033,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/Torso.dae",
+      "sha": "9d4d59e745c555481501455e6ed8b2d63947591a",
+      "size": 259947,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/meshes/romeo/visual/TrunkYaw.dae",
+      "sha": "f024fd137662873edd20ead0e4996458b2b7a345",
+      "size": 328372,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/srdf/romeo_collision.srdf",
+      "sha": "c386a074c0f13538aa318160e6a8334e7a2ffee2",
+      "size": 53372,
+      "mode": "100644"
+    },
+    {
+      "path": "models/romeo/urdf/romeo.urdf",
+      "sha": "269c48b0e25f9ed6ad202dd09bf3e70b408ad0e5",
+      "size": 24153,
+      "mode": "100644"
+    },
+    {
+      "path": "package.xml",
+      "sha": "ffc0922a59e61623ff4ee902a27421ac9fcb2c86",
+      "size": 873,
+      "mode": "100644"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "56ec91231d80c20873f18100778b34b6b78781a8",
+      "size": 231,
+      "mode": "100644"
+    },
+    {
+      "path": "src/contacts/contact-6d.cpp",
+      "sha": "8f8fac7ab2601b681cf754ef9d8748add224e035",
+      "size": 8417,
+      "mode": "100644"
+    },
+    {
+      "path": "src/contacts/contact-base.cpp",
+      "sha": "1f7f2eeb4ddbcb368c8bb1e440605d33fa5ef2d6",
+      "size": 404,
+      "mode": "100644"
+    },
+    {
+      "path": "src/contacts/contact-point.cpp",
+      "sha": "bcce199ba1d15ef070fe4b98721d643a800cb3f3",
+      "size": 7217,
+      "mode": "100644"
+    },
+    {
+      "path": "src/contacts/contact-two-frame-positions.cpp",
+      "sha": "dc226212c1ed9b0397b0fe4aafd36abd189f4035",
+      "size": 5400,
+      "mode": "100644"
+    },
+    {
+      "path": "src/contacts/measured-3d-force.cpp",
+      "sha": "e24023dc8a0cb29e2ec31f9d47d7559fbbac9376",
+      "size": 1781,
+      "mode": "100644"
+    },
+    {
+      "path": "src/contacts/measured-6d-wrench.cpp",
+      "sha": "58c5858cb3cc1b4838d2a9ceab65ea8b7d935000",
+      "size": 1669,
+      "mode": "100644"
+    },
+    {
+      "path": "src/contacts/measured-force-base.cpp",
+      "sha": "5591e7d7b55a02098d5000445bdc366dfd84b620",
+      "size": 484,
+      "mode": "100644"
+    },
+    {
+      "path": "src/formulations/contact-level.cpp",
+      "sha": "0da9f1ac6a9bfb7ea9e1631290a207669e03eeb6",
+      "size": 219,
+      "mode": "100644"
+    },
+    {
+      "path": "src/formulations/inverse-dynamics-formulation-acc-force.cpp",
+      "sha": "d3918e008ebf4f481940f90d008a77b2a6fcb2a9",
+      "size": 21528,
+      "mode": "100644"
+    },
+    {
+      "path": "src/formulations/inverse-dynamics-formulation-base.cpp",
+      "sha": "9beaca49e605f54d66cbc6516fd7291e951d376b",
+      "size": 840,
+      "mode": "100644"
+    },
+    {
+      "path": "src/math/constraint-base.cpp",
+      "sha": "0cfe1d4f92b9808675c830ba8dc390888fbd2024",
+      "size": 1013,
+      "mode": "100644"
+    },
+    {
+      "path": "src/math/constraint-bound.cpp",
+      "sha": "557a104a1145113415cb3e0dd4063aa0e5791213",
+      "size": 2297,
+      "mode": "100644"
+    },
+    {
+      "path": "src/math/constraint-equality.cpp",
+      "sha": "31096bde762c5c925df501fe929f9dc611e740f5",
+      "size": 2819,
+      "mode": "100644"
+    },
+    {
+      "path": "src/math/constraint-inequality.cpp",
+      "sha": "5e2923584936b936b3888b77b01486ab23c69c2d",
+      "size": 2566,
+      "mode": "100644"
+    },
+    {
+      "path": "src/math/utils.cpp",
+      "sha": "ac6e71a93815c47c70760881dc0a64d234c7a03a",
+      "size": 7394,
+      "mode": "100644"
+    },
+    {
+      "path": "src/robots/robot-wrapper.cpp",
+      "sha": "b467a1d09d821a2cf742c215340849e7c5fc7106",
+      "size": 13585,
+      "mode": "100644"
+    },
+    {
+      "path": "src/solvers/solver-HQP-base.cpp",
+      "sha": "5dc79072eb3c1e111742747a801695e21e806bd0",
+      "size": 784,
+      "mode": "100644"
+    },
+    {
+      "path": "src/solvers/solver-HQP-daqp.cpp",
+      "sha": "9db79c9a1b84a4205b46d9bd146abe383ffcf720",
+      "size": 11642,
+      "mode": "100644"
+    },
+    {
+      "path": "src/solvers/solver-HQP-eiquadprog-fast.cpp",
+      "sha": "9fd17751bb358551df07b0eeb77c77d7908b132b",
+      "size": 7592,
+      "mode": "100644"
+    },
+    {
+      "path": "src/solvers/solver-HQP-eiquadprog.cpp",
+      "sha": "60ab5e5262a3bac85918380b074a428089583d94",
+      "size": 9236,
+      "mode": "100644"
+    },
+    {
+      "path": "src/solvers/solver-HQP-factory.cpp",
+      "sha": "902584584d8233aa988236c7ff23ad885669cf60",
+      "size": 1571,
+      "mode": "100644"
+    },
+    {
+      "path": "src/solvers/solver-HQP-qpmad.cpp",
+      "sha": "52ae49c7ab44a4f915b99e229f0fc655818cfc86",
+      "size": 6091,
+      "mode": "100644"
+    },
+    {
+      "path": "src/solvers/solver-HQP-qpoases.cpp",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "src/solvers/solver-osqp.cpp",
+      "sha": "24932f7a48903245ecb55efaac425f9f80a9d056",
+      "size": 9284,
+      "mode": "100644"
+    },
+    {
+      "path": "src/solvers/solver-proxqp.cpp",
+      "sha": "a2947c30815b251092f9879dbada945729df3d43",
+      "size": 8096,
+      "mode": "100644"
+    },
+    {
+      "path": "src/solvers/utils.cpp",
+      "sha": "56ddb4c9646e7e0730b4f15ba9643a37be41b718",
+      "size": 1870,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-actuation-bounds.cpp",
+      "sha": "c58abc96230756faa6965442dc0634325aec541a",
+      "size": 2382,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-actuation-equality.cpp",
+      "sha": "c54c91483fee90084b743040d278b02bd700fe2e",
+      "size": 3337,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-actuation.cpp",
+      "sha": "4bb3de5d457dcbb149d16f9af8824857affd170e",
+      "size": 284,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-angular-momentum-equality.cpp",
+      "sha": "ac9609d55af74120710478e085900ef0d7cca0c1",
+      "size": 2738,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-base.cpp",
+      "sha": "84943c995fbb777f33829f0e8c94703fcc2786f1",
+      "size": 380,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-capture-point-inequality.cpp",
+      "sha": "b3f02597c42e6fe6ef278c00c0a1310a41545823",
+      "size": 3962,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-com-equality.cpp",
+      "sha": "8151cb6fc1d8d36b350dfe176480eb4cfbc0fe91",
+      "size": 3699,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-contact-force-equality.cpp",
+      "sha": "83620a877e9374b1e1d3b58dce5bb341957067f1",
+      "size": 4251,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-contact-force.cpp",
+      "sha": "2d197298b7d4084075b9773ca2c747fdd4e21073",
+      "size": 294,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-cop-equality.cpp",
+      "sha": "3a64620a24a48c9893e394f7d1a62be715164eac",
+      "size": 2639,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-joint-bounds.cpp",
+      "sha": "ab4d3e4f4be8a4ae7c7a8daad78ddcf81e5cfa86",
+      "size": 3383,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-joint-posVelAcc-bounds.cpp",
+      "sha": "cb3dcc8bec2ac1489671f2dcbfc5ddc95c8f8b25",
+      "size": 15839,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-joint-posture.cpp",
+      "sha": "db281533e30e9286c737da22b8427932b0f0d51a",
+      "size": 4695,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-motion.cpp",
+      "sha": "b07fc8fc2075272b1c82220de4577baff4c9742d",
+      "size": 1202,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-se3-equality.cpp",
+      "sha": "25a8029f20f6be818571bcf97a640b8e66aaae2b",
+      "size": 6180,
+      "mode": "100644"
+    },
+    {
+      "path": "src/tasks/task-two-frames-equality.cpp",
+      "sha": "a6d74a6c5176e7b9a94ef33cd6b231a2240a59da",
+      "size": 5193,
+      "mode": "100644"
+    },
+    {
+      "path": "src/trajectories/trajectory-euclidian.cpp",
+      "sha": "6a352d7c06322b1e2c8e3f69c581a2215d45ee0b",
+      "size": 1093,
+      "mode": "100644"
+    },
+    {
+      "path": "src/trajectories/trajectory-se3.cpp",
+      "sha": "0380699ddbc72d38d4cbe7e15f629344ac4bb636",
+      "size": 1337,
+      "mode": "100644"
+    },
+    {
+      "path": "src/utils/statistics.cpp",
+      "sha": "7d8f95dc61cc705280afefb0acd4ffeb095f157d",
+      "size": 4537,
+      "mode": "100644"
+    },
+    {
+      "path": "src/utils/stop-watch.cpp",
+      "sha": "6d89c23378bc89f3d8fe93be92685a3cd943658b",
+      "size": 9687,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/CMakeLists.txt",
+      "sha": "40c62c36587cbea3f59983cabc74846a0bab0ebf",
+      "size": 2095,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/constraints.cpp",
+      "sha": "fdba12db2238798161e00bc51d1a440d586cf71b",
+      "size": 3057,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/contacts.cpp",
+      "sha": "a7051e6b33015e46081473659a3f33d8f5f9e1ef",
+      "size": 2770,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/hqp_solvers.cpp",
+      "sha": "34838d0df1d9c036c1753e6a53d02240c10b838e",
+      "size": 24460,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/math_utils.cpp",
+      "sha": "51bc3f77ffef52c314919f0a9236d8b316b45448",
+      "size": 567,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/CMakeLists.txt",
+      "sha": "bd912a792bc1c94ce69200d8c4498a1aad0ef04b",
+      "size": 384,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/generator.py",
+      "sha": "50d2c981884a90eb64c963b652b3f9aa67e40c73",
+      "size": 7970,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_Constraint.py",
+      "sha": "f6280b1b19b69ac63765036d71561405b094bb5c",
+      "size": 2126,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_Contact.py",
+      "sha": "3e5eee5e406b3ab1208b5655938d3d559841e6b4",
+      "size": 1867,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_ContactPoint.py",
+      "sha": "4f4aad3ff95af2b9443a3e5516f5260a786d08c5",
+      "size": 1502,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_Deprecations.py",
+      "sha": "dc1b9e76d78c151a5ee9852330dfec63751a4503",
+      "size": 552,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_Formulation.py",
+      "sha": "3fa9fc88d6210d7ab8375c072b97ae190a35d49b",
+      "size": 5094,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_Gravity.py",
+      "sha": "1b0e4f8b5bd14b56207a3f2e5bd495e3c6cadcfd",
+      "size": 601,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_Measured6DWrench.py",
+      "sha": "7207380d833037d5cebfadf8c44071e22441adac",
+      "size": 837,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_RobotWrapper.py",
+      "sha": "3c163a8fd88bafe6aa1a19cb939074fbe01acd56",
+      "size": 1432,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_Solvers.py",
+      "sha": "d295f2dff2dcc2580f68740d3a245f62c67c42fe",
+      "size": 3219,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_Tasks.py",
+      "sha": "d4122cf5f68b02413088a5f30236b9ec3a9f9aad",
+      "size": 8702,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/python/test_Trajectories.py",
+      "sha": "0674e98931fc1b3cd182e580d8485df29c0b3740",
+      "size": 1510,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/robot-wrapper.cpp",
+      "sha": "7696fdfebc5f7a62bd922a7a6b98038ca8132872",
+      "size": 1392,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/set_gravity.cpp",
+      "sha": "8068c483e9e6324a77e6890637b8b9092f553fb5",
+      "size": 970,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/tasks.cpp",
+      "sha": "b771aa1dbd557ef951e16dd123b2785642bc5bca",
+      "size": 14246,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/trajectories.cpp",
+      "sha": "2c6744224ec92267c23d2fd0320b97e5dd4a627d",
+      "size": 1870,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/tsid-formulation.cpp",
+      "sha": "5dcc1b1bc1016b7f8c27feb641ce71c86cdc58f4",
+      "size": 28061,
+      "mode": "100644"
+    }
+  ],
+  "gitlinks": [],
+  "license": "BSD-2-Clause",
+  "folder": "projects/tsid",
+  "file_count": 319,
+  "bytes": 37120967,
+  "lfs_pointers": []
+}

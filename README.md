@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">⚙️ Whole-body Control</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-11-f28c28?style=flat-square" alt="11 curated resources"></a>
@@ -33,6 +33,23 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [Pink Inverse Kinematics](https://github.com/pink-kinematics/pink) | Differential inverse kinematics in Python using Pinocchio and QP solvers. | IK, Pinocchio, QP | [pink-kinematics](https://github.com/pink-kinematics/pink) |
 | [OSQP](https://github.com/osqp/osqp) | Numerical solver for convex quadratic programs, useful as a component in IK and control formulations. | QP, Optimization, Solver | [osqp](https://github.com/osqp/osqp) |
 | [CasADi](https://github.com/casadi/casadi) | Symbolic differentiation and optimization tools for formulating nonlinear control and trajectory problems. | NLP, Automatic differentiation, MPC | [casadi](https://github.com/casadi/casadi) |
+
+## 📦 Code & models in this repository
+
+**319 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [stack-of-tasks/tsid](projects/tsid) | 319 | [`25762a26464d`](https://github.com/stack-of-tasks/tsid/tree/25762a26464d10f6a2b1becc87f6e9a13c24c44b) | [LICENSE](projects/tsid/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-whole-body-control.git
+cd humanoid-whole-body-control
+```
+
+Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
 
 ## 🚀 Start here
 
